@@ -6,8 +6,8 @@ import numpy as np
 
 class CryptoInput(BaseModel):
     pair: str = "BTCUSDT"
-    interval: str = "15m"
-    limit: int = 500
+    interval: str = "1d"
+    limit: int = 1000
 
 app = FastAPI(title="Crypto Predictor API")
 
